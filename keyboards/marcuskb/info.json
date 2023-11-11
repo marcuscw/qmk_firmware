@@ -12,12 +12,16 @@
         "mousekey": true,
         "nkro": true
     },
-    "processor": "atmega32u4",
+    "processor": "STM32F401",
     "url": "",
     "usb": {
         "device_version": "1.0.0",
         "pid": "0x0000",
         "vid": "0xFEED"
+    },
+	"matrix_pins": {
+        "cols": ["A3", "A2", "A1", "C14", "C13", "B4", "A11", "A12", "A15", "B3", "B5", "B6", "B7", "B8", "B9"],
+        "rows":["B14", "B15", "A8", "B0", "A0", "C15"]
     },
     "layouts": {
         "LAYOUT": {
