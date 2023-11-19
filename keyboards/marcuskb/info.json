@@ -2,7 +2,6 @@
     "manufacturer": "marcuscw",
     "keyboard_name": "marcuskb",
     "maintainer": "marcuscw",
-    "bootloader": "atmel-dfu",
     "diode_direction": "COL2ROW",
     "features": {
         "bootmagic": true,
@@ -21,7 +20,7 @@
     },
 	"matrix_pins": {
         "cols": ["A3", "A2", "A1", "C14", "C13", "B4", "A5", "A4", "A15", "B3", "B5", "B6", "B7", "B8", "B9"],
-        "rows":["B14", "B15", "A8", "B0", "A0", "C15"]
+        "rows":["B14", "B15", "A8", "A9", "A0", "B0"]
     },
     "layouts": {
         "LAYOUT": {
